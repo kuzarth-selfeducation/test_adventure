@@ -1,0 +1,409 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adventure</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="/bower_components/slick.js/slick/slick.css" />
+    <link rel="stylesheet" href="/bower_components/slick.js/slick/slick-theme.css" />
+    <link rel="stylesheet" href="/bower_components/magnific-popup/dist/magnific-popup.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header class="header">
+      <div class="wrapper">
+        <div class="logo">
+          <h1>adventure</h1>
+          <p>оставь свой след, где его еще нет...</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <section class="countries">
+
+          <nav class="navbar">
+            <ul class="navbar-nav">
+              <li class="js-filter-button _active" data-filter="all"><a href="#">Вcе страны</a></li>
+              <li class="js-filter-button" data-filter="culture"><a href="#">Культура</a></li>
+              <li class="js-filter-button" data-filter="extreme"><a href="#">Экстрим</a></li>
+              <li class="js-filter-button" data-filter="atmosphere"><a href="#">Атмосфера</a></li>
+              <li class="js-filter-button" data-filter="people"><a href="#">Люди</a></li>
+            </ul>
+          </nav>
+
+          <div class="grid js-grid">
+            <div class="grid-item" data-category="culture people">
+              <div class="slider js-slider">
+                <div class="slide title-slide">
+                  <div class="block-image">
+                    <img data-lazy="images/cuba_1.jpg" src="" alt="Cuba">
+                  </div>
+                  <div class="block-content">
+                    <h2>Cuba</h2>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место 
+                    в мире. Почему же он 22 года прожил 
+                    в Гаване? Потому что это свобода!</p>
+                    <h3>Cuba</h3>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/cuba_2.jpg" src="" alt="Cuba">
+                  </div>
+                  <div class="block-content content-media">
+                    <a class="content-link pic-link js-image-popup-btn" href="images/popup_image.jpg"></a>
+                    <h3>Cuba</h3>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/cuba_3.jpg" src="" alt="Cuba">
+                  </div>
+                  <div class="block-content content-media">
+                    <a class="content-link video-link js-video-popup-btn" href="https://www.youtube.com/watch?v=ACUuFg9Y9dY"></a>
+                    <h3>Cuba</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="culture people">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/russia_1.jpg" src="" alt="Russia">
+                  </div>
+                  <div class="block-content">
+                    <h2>Russia</h2>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>Russia</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item grid-item--big" data-category="culture extreme">
+              <div class="block-image">
+                <img src="images/latin_amercia.jpg" alt="Cuba">
+              </div>
+              <div class="block-content">
+                <h2>Latin America</h2>
+                <ol>
+                  <li>Honduras</li>
+                  <li>Columbia</li>
+                  <li>Panama</li>
+                  <li>Brazil</li>
+                  <li>Peru</li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="atmosphere people">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/england_1.jpg" src="" alt="England">
+                  </div>
+                  <div class="block-content">
+                    <h2>England</h2>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>England</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="extreme atmosphere">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/norway_1.jpg" src="" alt="Norway">
+                  </div>
+                  <div class="block-content">
+                    <h2>Norway</h2>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>Norway</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="atmosphere people">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/switzerland_1.jpg" src="" alt="Switzerland">
+                  </div>
+                  <div class="block-content">
+                    <h2>Switzerland</h2>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>Switzerland</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="culture extreme people">
+              <div class="slider js-slider">
+                
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/china_1.jpg" src="" alt="China">
+                  </div>
+                  <div class="block-content">
+                    <h2>China</h2>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>China</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="culture people">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/germany_1.jpg" src="" alt="Germany">
+                  </div>
+                  <div class="block-content">
+                    <h2>Germany</h2>
+                  </div>
+                </div>
+                
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>Germany</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="culture extreme">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/japan_1.jpg" src="" alt="Japan">
+                  </div>
+                  <div class="block-content">
+                    <h2>Japan</h2>
+                  </div>
+                </div>
+                
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>Japan</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="atmosphere people">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/australia_1.jpg" src="" alt="Australia">
+                  </div>
+                  <div class="block-content">
+                    <h2>Australia</h2>
+                  </div>
+                </div>
+                
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>Australia</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="culture atmosphere extreme">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/india_1.jpg" src="" alt="India">
+                  </div>
+                  <div class="block-content">
+                    <h2>India</h2>
+                  </div>
+                </div>
+
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>India</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="people">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/finland_1.jpg" src="" alt="Finland">
+                  </div>
+                  <div class="block-content">
+                    <h2>Finland</h2>
+                  </div>
+                </div>
+                
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>Finland</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="grid-item" data-category="people">
+              <div class="slider js-slider">
+
+                <div class="slide">
+                  <div class="block-image">
+                    <img data-lazy="images/new_zealand_1.jpg" src="" alt="New Zealand">
+                  </div>
+                  <div class="block-content">
+                    <h2>New Zealand</h2>
+                  </div>
+                </div>
+                
+                <div class="slide">
+                  <div class="block-content content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit accusamus facilis laborum nostrum sequi inventore reiciendis aperiam, labore perferendis officia magnam</p>
+                    <h3>New Zealand</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+            
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <p class="footer-text footer-left">© 2013 - 2015</p>
+        <p class="footer-text footer-right">
+          <span>Здесь наследили </span>
+          <a href="#" class="footer-link">CreativePeople</a></p>
+      </div>
+    </footer>
+    
+    <!-- <aside class="popup js-popup">
+      <div class="popup-content-wrapper">
+        <div class="popup-content"></div>
+      </div>
+    </aside> -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script> -->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/slick.js/slick/slick.min.js"></script>
+    <script src="/bower_components/get-style-property/get-style-property.js"></script>
+    <script src="/bower_components/get-size/get-size.js"></script>
+    <script src="/bower_components/matches-selector/matches-selector.js"></script>
+    <script src="/bower_components/eventie/eventie.js"></script>
+    <script src="/bower_components/doc-ready/doc-ready.js"></script>
+    <script src="/bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="/bower_components/fizzy-ui-utils/utils.js"></script>
+    <script src="/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+    <script src="/bower_components/classie/classie.js"></script>
+    <script src="/bower_components/isotope-packery/packery-mode.pkgd.min.js"></script>
+    <script src="/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

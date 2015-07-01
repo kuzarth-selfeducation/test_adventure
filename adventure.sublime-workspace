@@ -1,0 +1,723 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ic",
+				"icon_close"
+			],
+			[
+				"bg",
+				"bg+	background: ${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat};"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"mao",
+				"margin-bottom"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"data",
+				"dataLink"
+			],
+			[
+				"transpa",
+				"transparent"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"gri",
+				"grid-item"
+			],
+			[
+				"filer",
+				"filterButton"
+			],
+			[
+				"Ne",
+				"New"
+			],
+			[
+				"block",
+				"block-height"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"opaci",
+				"opacity	opacity()"
+			],
+			[
+				"slid",
+				"sliders"
+			],
+			[
+				"New",
+				"NewBaskervilleC"
+			],
+			[
+				"in",
+				"indent-small"
+			],
+			[
+				"ind",
+				"indent-big"
+			],
+			[
+				"media",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"c-",
+				"c-light"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"is",
+				"isIntArray"
+			],
+			[
+				"cli",
+				"client"
+			],
+			[
+				"browsre",
+				"browser-sync"
+			],
+			[
+				"brow",
+				"browserSync"
+			],
+			[
+				"v",
+				"vet"
+			],
+			[
+				"cl",
+				"client"
+			],
+			[
+				"clie",
+				"clientApp"
+			],
+			[
+				"de",
+				"dest"
+			],
+			[
+				"err",
+				"errorLogger"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"sou",
+				"sourcemap"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 16215,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 10790,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 3093,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 296.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"paack",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/IT/Practice/_testing/pirate_code/adventure",
+		"/E/IT/Practice/_testing/pirate_code/adventure/.tmp",
+		"/E/IT/Practice/_testing/pirate_code/adventure/.tmp/styles",
+		"/E/IT/Practice/_testing/pirate_code/adventure/app",
+		"/E/IT/Practice/_testing/pirate_code/adventure/app/images",
+		"/E/IT/Practice/_testing/pirate_code/adventure/app/images/svg",
+		"/E/IT/Practice/_testing/pirate_code/adventure/app/scripts",
+		"/E/IT/Practice/_testing/pirate_code/adventure/app/styles"
+	],
+	"file_history":
+	[
+		"/E/soft/portable/Sublime Text/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/E/soft/portable/Sublime Text/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/E/soft/portable/Sublime Text/Data/Packages/Default/Preferences.sublime-settings",
+		"/E/soft/portable/Sublime Text/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/E/IT/Practice/_testing/pirate_code/adventure/bower.json",
+		"/E/IT/Practice/_testing/pirate_code/adventure/app/images/svg/cp_logo.svg",
+		"/C/Users/recchi/Desktop/cp_logo.svg",
+		"/E/soft/portable/Sublime Text/Data/Packages/User/Preferences.sublime-settings",
+		"/E/IT/Practice/_testing/pirate_code/sass-gulp-svg-sprite-master/html/assets/img/sprite.svg",
+		"/E/IT/Practice/_testing/pirate_code/adventure/app/images/svg/next_slide.svg",
+		"/E/IT/Practice/_testing/pirate_code/adventure/.tmp/styles/main.css",
+		"/E/IT/Practice/_testing/piratecode/app/styles/main.scss",
+		"/E/IT/Practice/_testing/pirate_code/adventure/gulpfile.js",
+		"/E/IT/Practice/_testing/piratecode/app/styles/_fonts.scss",
+		"/E/IT/Work/Idealpromo/_projects/idealpromo/07-04-2015/ip/src/style/partials/_fonts.sass",
+		"/E/IT/Practice/_testing/piratecode/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/E/IT/Practice/Codewars/7ku/add_property_to_every_oject_in_array.js",
+		"/E/IT/Practice/Codewars/6ku/isIntegerArray.js",
+		"/E/IT/Practice/Codewars/6ku/reverse_words.js",
+		"/E/IT/Practice/Codewars/7ku/high_and_low.js",
+		"/E/IT/Practice/projecteuler.net/JS/problem_1.js",
+		"/E/IT/Practice/projecteuler.net/JS/problem_2.js",
+		"/E/IT/Practice/projecteuler.net/JS/problem_3(Натуральные числа).js",
+		"/E/IT/Practice/projecteuler.net/JS/problem_4.js",
+		"/E/soft/portable/Sublime Text/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/E/soft/portable/Sublime Text/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/E/IT/Practice/webstrom/practice/src/js/main.js",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/some.js",
+		"/E/soft/portable/Sublime Text/Data/Packages/User/node.sublime-build",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/src/client/app/dashboard/dashboard.controller.js",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/src/client/app/dashboard/dashboard.html",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/src/client/app/app.module.js",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/.tmp/foo.css",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/.tmp/styles.css",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/src/client/styles/styles.less",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/karma.conf.js",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/bower.json",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/gulp.png",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/README.md",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/src/client/app/customers/customer-detail.controller.js",
+		"/E/IT/Practice/gulp/pluralsight-gulp/pluralsight-gulp/gulpfile.js",
+		"/E/IT/Projects/arthurkuz/src/js/main.js",
+		"/E/IT/Projects/arthurkuz/src/style/pages/_index.sass",
+		"/E/IT/Projects/arthurkuz/package.json",
+		"/E/IT/Projects/arthurkuz/gulpfile.js",
+		"/E/IT/Projects/arthurkuz/src/template/footer.html",
+		"/E/IT/Projects/arthurkuz/src/index.html",
+		"/E/IT/Projects/arthurkuz/src/template/header.html",
+		"/E/IT/Projects/arthurkuz/app/styles/index.scss",
+		"/E/IT/Projects/arthurkuz/app/index.html",
+		"/E/IT/Projects/arthurkuz/app/styles/main.scss",
+		"/E/IT/Work/Idealpromo/_projects/idealpromo/07-04-2015/ip/gulpfile.js",
+		"/D/IT/Tools/starter_kits/html5-boilerplate_v5.0.0/index.html",
+		"/D/IT/Practice/my-web-kit/test/recchi-web-kit/bower.json",
+		"/D/IT/Practice/my-web-kit/test/recchi-web-kit/config.rb",
+		"/D/IT/Practice/my-web-kit/test/recchi-web-kit/src/style/pages/_index.sass",
+		"/D/IT/Practice/my-web-kit/test/recchi-web-kit/src/style/main.sass",
+		"/D/IT/Practice/my-web-kit/test/recchi-web-kit/gulpfile.js",
+		"/D/wamp/www/experimental/config.rb",
+		"/D/wamp/www/experimental/bower.json",
+		"/D/wamp/www/experimental/gulpfile.js",
+		"/D/wamp/www/experimental/package.json",
+		"/D/wamp/www/experimental/src/style/main.sass",
+		"/D/wamp/www/experimental/src/style/pages/_index.sass",
+		"/D/wamp/www/experimental/build/template/index.html",
+		"/D/wamp/www/experimental/build/css/main.css",
+		"/D/wamp/www/experimental/src/template/index.html",
+		"/D/wamp/www/experimental/src/style/lib/_sprites.scss",
+		"/D/wamp/www/experimental/build/template/another.html",
+		"/D/wamp/www/experimental/src/js/main.js",
+		"/D/wamp/www/experimental/src/template/partials/footer.html",
+		"/D/wamp/www/experimental/src/template/partials/header.html",
+		"/D/wamp/www/experimental/src/template/another.html",
+		"/D/wamp/www/experimental/src/template/php-index.php",
+		"/D/wamp/www/experimental/src/template/partials/php-header.php",
+		"/D/wamp/www/experimental/src/template/partials/php-footer.php",
+		"/D/wamp/www/experimental/src/template/partials/another.html",
+		"/D/wamp/www/experimental/build/template/php-index.php",
+		"/D/wamp/www/experimental/src/template/partials/php-index.php",
+		"/D/wamp/www/experimental/src/index.html",
+		"/D/wamp/www/experimental/build/js/main.js",
+		"/D/wamp/www/experimental/src/template/header.html",
+		"/D/wamp/www/experimental/src/style/lib/_base.sass",
+		"/D/wamp/www/experimental/src/style/lib/_defaults.sass",
+		"/C/Users/Art/Downloads/gulpfile.js",
+		"/D/wamp/www/experimental/src/template/footer.html",
+		"/D/wamp/www/experimental/.gitignore",
+		"/D/wamp/www/experimental/src/style/partials/_fonts.sass",
+		"/D/IT/Tools/Sublime Text Build 3059 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/wamp/www/renault/js/main.js",
+		"/D/wamp/www/renault/css/flipclock.css",
+		"/D/wamp/www/renault/sass/pages/_index.sass",
+		"/D/wamp/www/renault/partials/popup-more.html",
+		"/D/wamp/www/renault/partials/popup-call.html",
+		"/D/wamp/www/renault/index.html",
+		"/C/Users/Art/Desktop/валидация.txt",
+		"/D/wamp/www/renault/Gruntfile.js",
+		"/D/wamp/www/renault/js/plugins.js",
+		"/D/IT/Practice/myPractice/nodejs/project/server.js",
+		"/D/IT/Tools/Sublime Text Build 3059 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/IT/Practice/myPractice/nodejs/project/db/index.js",
+		"/D/IT/Practice/myPractice/nodejs/project/user/index.js",
+		"/D/IT/Practice/myPractice/nodejs/project/db/ru.json",
+		"/D/IT/Practice/myPractice/nodejs/project/app.js",
+		"/D/IT/Practice/myPractice/nodejs/project/user.js",
+		"/D/IT/Practice/myPractice/nodejs/project/ru.json",
+		"/D/World Of Games/Steam/steamapps/common/insurgency2/insurgency/cfg/config.cfg",
+		"/D/csssr/bus.gov.ru/app/styles/blocks/asset-table.styl",
+		"/D/csssr/bus.gov.ru/app/templates/pages/execution-foi-summary.jade",
+		"/D/csssr/bus.gov.ru/app/templates/pages/monitoring-placing.jade",
+		"/D/csssr/bus.gov.ru/app/styles/blocks/chart.styl",
+		"/D/csssr/bus.gov.ru/app/styles/components/toggle.styl",
+		"/D/csssr/bus.gov.ru/app/styles/blocks/filter.styl",
+		"/D/csssr/bus.gov.ru/app/templates/pages/okato-popup.jade",
+		"/D/csssr/bus.gov.ru/app/templates/pages/execution-rf-summary.jade",
+		"/D/csssr/bus.gov.ru/app/templates/pages/partials/popup/okato.jade",
+		"/D/csssr/bus.gov.ru/app/styles/pages/popup.styl",
+		"/D/csssr/bus.gov.ru/app/templates/pages/statistical.jade",
+		"/D/csssr/bus.gov.ru/app/templates/pages/partials/popup/public.jade",
+		"/D/csssr/bus.gov.ru/app/scripts/common.js",
+		"/D/csssr/bus.gov.ru/app/templates/pages/filter-registry-payment.jade",
+		"/D/csssr/bus.gov.ru/app/styles/components/table.styl",
+		"/D/csssr/bus.gov.ru/dist/monitoring-placing.html",
+		"/D/csssr/bus.gov.ru/dist/execution-foi-summary.html",
+		"/D/csssr/bus.gov.ru/dist/execution-rf-summary.html",
+		"/D/csssr/bus.gov.ru/app/styles/pages/service-list.styl",
+		"/D/csssr/bus.gov.ru/app/templates/pages/partials/popup/orgtype.jade",
+		"/D/csssr/bus.gov.ru/app/templates/pages/partials/popup/orglist.jade"
+	],
+	"find":
+	{
+		"height": 76.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"*.styl",
+			"",
+			".styl",
+			"*.styl",
+			"",
+			"*.styl"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"+w",
+			"alt+w",
+			"alt+",
+			"shift+",
+			"shift+alt",
+			"<div class=\"slider js-slider\">\n                \n                <div class=\"slide\">",
+			"\"grid-item",
+			"\"grid-item ",
+			"grid-item",
+			"data-category=\"extreme\"",
+			"data-category=\"atmosphere\"",
+			"data-category=\"culture\"",
+			"data-category=\"people\"",
+			"people",
+			"extreme",
+			"atmosphere",
+			"<div class=\"grid-item\"></div>",
+			"div data-filter=\"\"",
+			"<div data-filter=\"\" ",
+			"class=\"block ",
+			"slider",
+			"<li>",
+			"li>",
+			"theme",
+			"Cuba",
+			"alt=\"Cuba\">",
+			"ia scree",
+			"screen",
+			"sm-block",
+			"screen-",
+			"href=\"\"",
+			"min",
+			"src=\"...\"",
+			"...",
+			"Disabled",
+			"console",
+			"0001",
+			"console.log(isNaN(NaN));\n",
+			");",
+			"fizzBuzzArray.push(i);",
+			"console.log(pet);",
+			"'\n",
+			"        .on('restart', function() {})\n",
+			"ignorePath",
+			"function clean(path) {\n",
+			"	",
+			"&",
+			"href=\"\"",
+			"template",
+			"debug",
+			"plumberErrorHandler",
+			"plumber()",
+			"$icons",
+			"$sprites",
+			"_dar",
+			"table",
+			"subtitle",
+			"public-subtitle",
+			"padding",
+			"__th",
+			"социальное обслуживание",
+			"sub",
+			"close",
+			"tablet",
+			"width 932px",
+			"width: 932px",
+			".modal-content",
+			"modal",
+			"modal-content",
+			"modla",
+			".styl",
+			"modal",
+			"-content",
+			"-close",
+			".tablet-close",
+			":",
+			"b-filter",
+			"__line-toggler",
+			"chart-hor-bars",
+			"-toggler",
+			"__line-toggler",
+			"очистить",
+			"kladrName",
+			"__sortable",
+			"table__sortable",
+			"table__th",
+			"table__tbody"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16215,
+						"regions":
+						{
+							"mark":
+							{
+								"flags": 144,
+								"icon": "dot",
+								"regions":
+								[
+								],
+								"scope": "mark"
+							}
+						},
+						"selection":
+						[
+							[
+								3941,
+								3941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1096.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "app/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10713,
+								10713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8373.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2207,
+								2207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1246.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 187.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "adventure.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dashboe",
+				"src\\client\\app\\dashboard\\dashboard.controller.js"
+			],
+			[
+				"",
+				"src\\js\\main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
