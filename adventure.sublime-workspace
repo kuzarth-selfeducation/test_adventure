@@ -163,7 +163,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 16215,
+				"buffer_size": 16122,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,7 +171,7 @@
 			"file": "app/styles/main.scss",
 			"settings":
 			{
-				"buffer_size": 10790,
+				"buffer_size": 9544,
 				"line_ending": "Unix"
 			}
 		},
@@ -179,7 +179,15 @@
 			"file": "app/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 3093,
+				"buffer_size": 2188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3319,
 				"line_ending": "Unix"
 			}
 		}
@@ -191,8 +199,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 296.0,
-		"last_filter": "Package Control: in",
+		"height": 227.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -244,16 +252,17 @@
 	"expanded_folders":
 	[
 		"/E/IT/Practice/_testing/pirate_code/adventure",
-		"/E/IT/Practice/_testing/pirate_code/adventure/.tmp",
-		"/E/IT/Practice/_testing/pirate_code/adventure/.tmp/styles",
 		"/E/IT/Practice/_testing/pirate_code/adventure/app",
 		"/E/IT/Practice/_testing/pirate_code/adventure/app/images",
 		"/E/IT/Practice/_testing/pirate_code/adventure/app/images/svg",
 		"/E/IT/Practice/_testing/pirate_code/adventure/app/scripts",
-		"/E/IT/Practice/_testing/pirate_code/adventure/app/styles"
+		"/E/IT/Practice/_testing/pirate_code/adventure/app/styles",
+		"/E/IT/Practice/_testing/pirate_code/adventure/dist"
 	],
 	"file_history":
 	[
+		"/E/IT/Practice/_testing/pirate_code/adventure/bower_components/magnific-popup/README.md",
+		"/E/IT/Practice/_testing/pirate_code/adventure/bower_components/masonry/README.mdown",
 		"/E/soft/portable/Sublime Text/Data/Packages/Package Control/Package Control.sublime-settings",
 		"/E/soft/portable/Sublime Text/Data/Packages/Default/Default (Windows).sublime-keymap",
 		"/E/soft/portable/Sublime Text/Data/Packages/Default/Preferences.sublime-settings",
@@ -379,9 +388,7 @@
 		"/D/csssr/bus.gov.ru/dist/monitoring-placing.html",
 		"/D/csssr/bus.gov.ru/dist/execution-foi-summary.html",
 		"/D/csssr/bus.gov.ru/dist/execution-rf-summary.html",
-		"/D/csssr/bus.gov.ru/app/styles/pages/service-list.styl",
-		"/D/csssr/bus.gov.ru/app/templates/pages/partials/popup/orgtype.jade",
-		"/D/csssr/bus.gov.ru/app/templates/pages/partials/popup/orglist.jade"
+		"/D/csssr/bus.gov.ru/app/styles/pages/service-list.styl"
 	],
 	"find":
 	{
@@ -519,7 +526,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16215,
+						"buffer_size": 16122,
 						"regions":
 						{
 							"mark":
@@ -535,8 +542,8 @@
 						"selection":
 						[
 							[
-								3941,
-								3941
+								449,
+								449
 							]
 						],
 						"settings":
@@ -546,7 +553,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1096.0,
+						"translation.y": 1299.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -564,15 +571,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10790,
+						"buffer_size": 9544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10713,
-								10713
+								8306,
+								8260
 							]
 						],
 						"settings":
@@ -582,7 +589,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8373.0,
+						"translation.y": 6210.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -594,26 +601,58 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3093,
+						"buffer_size": 2188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2207,
-								2207
+								595,
+								733
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 1246.0,
+						"translation.x": 1.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3314,
+								3314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1485.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -691,12 +730,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"E:\\IT\\Work\\piratecode\\!common_stuff\\sublime_proj\\bobrov.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
