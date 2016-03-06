@@ -8,17 +8,24 @@ var reload = browserSync.reload;
 
 gulp.task('styles', function () {
   return gulp.src('app/styles/main.scss')
-    .pipe($.sourcemaps.init())
-    .pipe($.sass({
-      outputStyle: 'nested', // libsass doesn't support expanded yet
-      precision: 10,
-      includePaths: ['.'],
-      onError: console.error.bind(console, 'Sass error:')
-    }))
+    // .pipe($.sourcemaps.init())
+    .pipe($.plumber({
+            errorHandler: function (error) {
+                console.log(error.message);
+                this.emit('end');
+            }
+        }))
+    .pipe($.sass().on('error', $.sass.logError))
+    // .pipe($.sass({
+    //   outputStyle: 'nested', // libsass doesn't support expanded yet
+    //   precision: 10,
+    //   includePaths: ['.'],
+    //   onError: console.error.bind(console, 'Sass error:')
+    // }))
     .pipe($.postcss([
       require('autoprefixer-core')({browsers: ['last 1 version']})
     ]))
-    .pipe($.sourcemaps.write())
+    // .pipe($.sourcemaps.write())
     .pipe(gulp.dest('.tmp/styles'))
     .pipe(reload({stream: true}));
 });
@@ -46,13 +53,11 @@ gulp.task('html', ['styles'], function () {
 
 gulp.task('images', function () {
   return gulp.src('app/images/**/*')
-    .pipe($.cache($.imagemin({
+    .pipe($.imagemin({
       progressive: true,
       interlaced: true,
-      // don't remove IDs from SVGs, they are often used
-      // as hooks for embedding and styling
       svgoPlugins: [{cleanupIDs: false}]
-    })))
+    }))
     .pipe(gulp.dest('dist/images'));
 });
 
